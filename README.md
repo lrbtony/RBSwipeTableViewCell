@@ -43,7 +43,7 @@
     cell.delegate = self;
     cell.rightBtnArr = tmpArr;
     //控制拖拽动作
-//    cell.panGesture.enabled = indexPath.row % 2;
+    //    cell.panGesture.enabled = indexPath.row % 2;
     //可继承cell类,并重写initWithStyle方法制定子控件
     UILabel *titleLabel = [[UILabel alloc]init];
     titleLabel.text = [NSString stringWithFormat:@"第%zd行",indexPath.row];
