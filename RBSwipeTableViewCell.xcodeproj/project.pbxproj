@@ -13,6 +13,7 @@
 		2DA981BF21D76748005825BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA981BE21D76748005825BE /* Assets.xcassets */; };
 		2DA981C221D76748005825BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA981C021D76748005825BE /* LaunchScreen.storyboard */; };
 		2DA981C521D76748005825BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA981C421D76748005825BE /* main.m */; };
+		2DA981D021D767D3005825BE /* RBSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA981CF21D767D3005825BE /* RBSwipeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2DA981C121D76748005825BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA981C321D76748005825BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA981C421D76748005825BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DA981CE21D767D3005825BE /* RBSwipeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBSwipeTableViewCell.h; sourceTree = "<group>"; };
+		2DA981CF21D767D3005825BE /* RBSwipeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBSwipeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				2DA981B521D76748005825BE /* AppDelegate.h */,
 				2DA981B621D76748005825BE /* AppDelegate.m */,
+				2DA981CE21D767D3005825BE /* RBSwipeTableViewCell.h */,
+				2DA981CF21D767D3005825BE /* RBSwipeTableViewCell.m */,
 				2DA981B821D76748005825BE /* ViewController.h */,
 				2DA981B921D76748005825BE /* ViewController.m */,
 				2DA981BB21D76748005825BE /* Main.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA981D021D767D3005825BE /* RBSwipeTableViewCell.m in Sources */,
 				2DA981BA21D76748005825BE /* ViewController.m in Sources */,
 				2DA981C521D76748005825BE /* main.m in Sources */,
 				2DA981B721D76748005825BE /* AppDelegate.m in Sources */,
