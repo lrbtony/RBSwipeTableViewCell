@@ -47,6 +47,7 @@
     //可继承cell类,并重写initWithStyle方法制定子控件
     UILabel *titleLabel = [[UILabel alloc]init];
     titleLabel.text = [NSString stringWithFormat:@"第%zd行",indexPath.row];
+    /*在RBContentView添加子控件*/
     [cell.RBContentView addSubview:titleLabel];
     titleLabel.frame = CGRectMake(100, 60, 50, 30);
     
