@@ -1,6 +1,8 @@
 # RBSwipeTableViewCell
 
 示例图片
+
+
 ![image](https://github.com/lrbtony/RBSwipeTableViewCell/blob/master/RBSwipeTableViewCell/readmePicture.png)
 
 本框架使用自定义cell来实现系统的左滑竖排显示按钮，可自定义宽度，背景色，按钮的样式
@@ -9,7 +11,9 @@
 直接拖拽RBSwipeTableViewCell.h和.m文件到项目，可以直接使用或者继承使用
 
 关键代码：
-   RBSwipeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell1"];
+
+
+    RBSwipeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell1"];
     //可用系统自带按钮,也可以用自定义按钮
     UIButton *btn1;
     NSString * tmpStr = @"查询银行\n变更申请";
@@ -26,8 +30,6 @@
     [btn2 setTitle:tmpStr1 forState:UIControlStateNormal];
     btn2.tag = 1;
     btn2.backgroundColor = [self colorWithRGB:0xf48500];
-    
-
     NSMutableArray *tmpArr = [[NSMutableArray alloc]initWithCapacity:2];
     if(btn1 != nil) {
         [tmpArr addObject:btn1];
@@ -43,7 +45,7 @@
                                                       tableView:tableView
                                                   cellIndexPath:indexPath];
     }
-    cell.delegate = self;
+    cell.delegate = self;//通过代理方法实现点击反馈
     cell.rightBtnArr = tmpArr;
     //控制拖拽动作
     //    cell.panGesture.enabled = indexPath.row % 2;
