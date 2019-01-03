@@ -1,5 +1,8 @@
 # RBSwipeTableViewCell
 
+![示例图片]https://github.com/lrbtony/RBSwipeTableViewCell/blob/master/RBSwipeTableViewCell/readmePicture.png
+
+
 本框架使用自定义cell来实现系统的左滑竖排显示按钮，可自定义宽度，背景色，按钮的样式
 
 使用方法：
